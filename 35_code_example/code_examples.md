@@ -24,3 +24,10 @@ const formatter2 = new Intl.ListFormat('zh', { style: 'short', type: 'disjunctio
 console.log(formatter2.format(vehicles));
 // expected output: "Motorcycle、Bus或Car"
 ```
+
+## Form Validate Timing
+
+- 第一次 submit 前，输入结束前，不要显示 error_message，真的很烦人。
+- submit 后显示 error_message。
+- 第一次 submit 后，error_message 可以实时更新。
+- form invalid 要 disable submit button。
