@@ -21,3 +21,11 @@ View Mode
 ## List
 
 same as Table
+
+## simulate Mode
+
+和 NoCode DataTable View 没有任何区别。
+
+可以采取 left top 下拉菜单，right top save-cancel 按钮的设计。
+
+## 层级数据展示

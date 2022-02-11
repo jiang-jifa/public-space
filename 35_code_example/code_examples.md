@@ -31,3 +31,18 @@ console.log(formatter2.format(vehicles));
 - submit 后显示 error_message。
 - 第一次 submit 后，error_message 可以实时更新。
 - form invalid 要 disable submit button。
+
+
+## permissions
+
+不要等到用户使用时才获取 permissions，应该在用户登录时就获取完整的 permissions 然后保存在内存/内存数据库中。可以提高性能。
+如果修改某些用户的 permissions，只需要更新一下数据。
+
+## 测试代码应该自己清理测试数据，以防止测试用例相互影响。
+
+`test.only`
+
+## `esc` close Modal
+## `esc` quit edit mode
+
+## sample input should off `autocomplete` feature
