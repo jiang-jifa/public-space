@@ -20,6 +20,9 @@
   - [What is good UI? I don't say UX.](#what-is-good-ui-i-dont-say-ux)
   - [Good Design Basic](#good-design-basic)
   - [List params Design](#list-params-design)
+  - [font-size](#font-size)
+  - [ToB App](#tob-app)
+  - [ToC App](#toc-app)
 
 ## Recommend to Read
 
@@ -150,3 +153,32 @@ TableView
 
 * add/remove icon
 * draggable
+
+## font-size
+
+## ToB App
+
+- text-large 46px
+- text-medium 24px
+- text-lg 16px
+- text-base 14px
+- text-sm 12px
+
+![image](https://user-images.githubusercontent.com/17308201/154197523-877eff10-d210-4614-9b01-a1204a891b0c.png)
+
+https://ant.design/docs/spec/font-cn#%E5%AD%97%E9%98%B6%E4%B8%8E%E8%A1%8C%E9%AB%98
+
+## ToC App
+
+- text-large 3rem
+- text-medium 1.5rem
+- text-lg 1.125rem
+- text-base 16px 1rem
+- text-sm 0.875rem
+- text-xs 0.75rem
+
+https://tailwindcss.com/docs/font-size
+
+细节：
+
+1. 注意：font-size 必须配合 line-height 一起使用
