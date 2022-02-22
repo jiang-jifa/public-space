@@ -29,3 +29,50 @@ same as Table
 可以采取 left top 下拉菜单，right top save-cancel 按钮的设计。
 
 ## 层级数据展示
+
+
+## UserGroupSelector
+
+两种使用场景，
+1. 选用户
+2. 选团体
+
+区别：最后的叶子结点不同。1. 用户，2. 团体。
+
+选用户
+
+- keyword 检索最方便。
+- 选择 group 然后下方展示 users，checkbox
+- 如果不行，可以自由条件组合检索。
+
+选团体
+
+- keyword 一般
+- tree 最方便
+- 不需要自由条件组合
+
+同时选用户和选团体
+
+- 第一步肯定是选团体，然后再选择用户。
+
+结论：
+
+提供简单和高级检索，类似 Backlog 和 Google
+
+`シンプルな検索 / 高度な検索`
+
+![CleanShot 2022-02-21 at 11 50 36](https://user-images.githubusercontent.com/17308201/154881205-35fca252-2a26-4307-a240-119b03823018.jpg)
+
+
+シンプルな検索：4 SearchInput
+
+1. keyword
+2. org
+3. tag
+4. filter (aka. view)
+
+检索后，下方出现 users
+
+高度な検索：包含 BaseInfo and and Orgs and Tags 的 Filter
+
+- 中途版：DataSheet > BaseInfo > Orgs > Tags
