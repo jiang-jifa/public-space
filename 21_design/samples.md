@@ -76,3 +76,14 @@ same as Table
 高度な検索：包含 BaseInfo and and Orgs and Tags 的 Filter
 
 - 中途版：DataSheet > BaseInfo > Orgs > Tags
+
+## TopPage 的几种设计方案
+
+肯定是最全的的最好，但是在 API 没有支持的前提下，可以渐进式实现。
+
+![CleanShot 2022-02-23 at 17 42 31@2x](https://user-images.githubusercontent.com/17308201/155285983-4da4e730-4291-48e8-b0ef-87a4799235b8.jpg)
+
+![CleanShot 2022-02-23 at 17 42 37@2x](https://user-images.githubusercontent.com/17308201/155285996-8f8b901c-b69e-47dd-861a-9274b6aa64a2.jpg)
+
+![CleanShot 2022-02-23 at 17 42 43@2x](https://user-images.githubusercontent.com/17308201/155286001-7176d318-9b00-4b02-93e1-efd0cce91731.jpg)
+
