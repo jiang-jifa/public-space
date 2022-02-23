@@ -46,3 +46,10 @@ console.log(formatter2.format(vehicles));
 ## `esc` quit edit mode
 
 ## sample input should off `autocomplete` feature
+
+
+## 如果使用 library，就尽量不要覆盖 library 的内容
+
+like: Antd Input and Button has `size`
+
+https://git.nisshin-dev.work/smartcompany/smartcompany-front/-/merge_requests/2334/diffs#note_24304
