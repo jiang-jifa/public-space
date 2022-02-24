@@ -53,3 +53,14 @@ console.log(formatter2.format(vehicles));
 like: Antd Input and Button has `size`
 
 https://git.nisshin-dev.work/smartcompany/smartcompany-front/-/merge_requests/2334/diffs#note_24304
+
+
+## UIUX textarea height
+
+OK:
+
+- 在可接受的范围内（min-rows ~ max-rows），自适应高度。
+
+NG:
+
+- 在 SessionStorage / LocalStorage 中保存 textarea height。
