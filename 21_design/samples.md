@@ -87,3 +87,8 @@ same as Table
 
 ![CleanShot 2022-02-23 at 17 42 43@2x](https://user-images.githubusercontent.com/17308201/155286001-7176d318-9b00-4b02-93e1-efd0cce91731.jpg)
 
+## Search focus
+
+from MUJI.com
+
+[![Image from Gyazo](https://i.gyazo.com/0f4e3f513ba1e1614144f040bd85de7d.gif)](https://gyazo.com/0f4e3f513ba1e1614144f040bd85de7d)
