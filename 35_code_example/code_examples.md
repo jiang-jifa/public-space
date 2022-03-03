@@ -64,3 +64,98 @@ OK:
 NG:
 
 - 在 SessionStorage / LocalStorage 中保存 textarea height。
+
+
+## Grid
+
+- responsive design: xs, sm, md, lg, xl, xxl
+- gutter + span
+
+```
+<Row>
+    <Col xs={2} sm={4} md={6} lg={8} xl={10}>
+      Col
+    </Col>
+    <Col xs={20} sm={16} md={12} lg={8} xl={4}>
+      Col
+    </Col>
+    <Col xs={2} sm={4} md={6} lg={8} xl={10}>
+      Col
+    </Col>
+  </Row
+```
+
+```
+<Row gutter={[32, 16]}>
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+  <Col span={2} />
+</Row>
+```
+
+## Space
+
+水平
+
+```
+<Space size={size}>
+  <Button type="primary">Primary</Button>
+  <Button>Default</Button>
+  <Button type="dashed">Dashed</Button>
+  <Button type="link">Link</Button>
+</Space>
+```
+
+垂直
+
+```
+<Space direction="vertical">
+  <Card title="Card" style={{ width: 300 }}>
+    <p>Card content</p>
+    <p>Card content</p>
+  </Card>
+  <Card title="Card" style={{ width: 300 }}>
+    <p>Card content</p>
+    <p>Card content</p>
+  </Card>
+</Space>
+```
+
+
+## font-family for Japanese web
+
+```
+font-family: Hiragino Sans, Meiryo, Roboto, RobotoDraft,YuGothic, Osaka, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial,
+  'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+  'Noto Color Emoji';
+```
+
+Why?
+
+1. Hiragino Sans - for Apple
+2. Meiryo - for Microsoft
+3. Roboto - for Google
+4. YuGothic and Osaka for Japanese
+5. following font-family of Ant.Design
