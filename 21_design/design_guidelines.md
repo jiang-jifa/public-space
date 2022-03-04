@@ -23,6 +23,7 @@
   - [font-size](#font-size)
   - [ToB App](#tob-app)
   - [ToC App](#toc-app)
+  - [Design Rules](#design-rules)
 
 ## Recommend to Read
 
@@ -182,3 +183,16 @@ https://tailwindcss.com/docs/font-size
 细节：
 
 1. 注意：font-size 必须配合 line-height 一起使用
+
+## Design Rules
+
+PC Layout: 1440px
+
+适配
+
+![](https://gw.alipayobjects.com/zos/rmsportal/vSqMhPolCtINKLvVVdLt.png)
+
+![](https://gw.alipayobjects.com/zos/rmsportal/VQEiJqtZfvvdyZSKcEsE.png)
+
+https://ant.design/docs/spec/layout
+
