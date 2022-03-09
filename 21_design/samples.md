@@ -23,6 +23,7 @@
   - [如何显示人数](#如何显示人数)
   - [Preview Button](#preview-button)
   - [浮标](#浮标)
+  - [清爽的 Search reset UI in ListPage](#清爽的-search-reset-ui-in-listpage)
 
 ## 编辑 vs. 不可编辑
 
@@ -230,3 +231,7 @@ Bad
 [![Image from Gyazo](https://i.gyazo.com/02b3b8f5fb77eafe2feea2d7b92d0622.png)](https://gyazo.com/02b3b8f5fb77eafe2feea2d7b92d0622)
 
 [![Image from Gyazo](https://i.gyazo.com/cf3d1f2df23e6b07fdef77333df11675.png)](https://gyazo.com/cf3d1f2df23e6b07fdef77333df11675)
+
+## 清爽的 Search reset UI in ListPage
+
+[![清爽的 Search reset UI in ListPage](https://i.gyazo.com/17ddb00514c9bfd32d56a8e4085bcc1e.jpg)](https://gyazo.com/17ddb00514c9bfd32d56a8e4085bcc1e)
