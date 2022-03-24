@@ -26,6 +26,7 @@
   - [清爽的 Search reset UI in ListPage](#清爽的-search-reset-ui-in-listpage)
   - [UI: color input](#ui-color-input)
   - [UI: Avatar.Group](#ui-avatargroup)
+  - [当 UI 上内容过多时，应该默认隐藏高级操作](#当-ui-上内容过多时应该默认隐藏高级操作)
 
 ## 编辑 vs. 不可编辑
 
@@ -245,3 +246,14 @@ Bad
 ## UI: Avatar.Group
 
 ![CleanShot 2022-02-16 at 14 45 00](https://user-images.githubusercontent.com/17308201/154203965-2f8a24eb-5154-44fc-b01d-332c790dae43.jpg)
+
+## 当 UI 上内容过多时，应该默认隐藏高级操作
+
+backlog
+
+![CleanShot 2022-02-08 at 18 01 40](https://user-images.githubusercontent.com/17308201/152953296-50249119-a05c-4a34-a36e-9c5bd2a462ee.gif)
+
+![CleanShot 2022-02-08 at 18 02 44](https://user-images.githubusercontent.com/17308201/152953419-6f6587f8-b55b-4672-8ec7-bf65bcd16477.gif)
+
+azure portal
+![CleanShot 2022-02-08 at 18 03 21](https://user-images.githubusercontent.com/17308201/152953601-854ea7a7-48c9-4259-bf5e-e914d4af9daa.gif)
