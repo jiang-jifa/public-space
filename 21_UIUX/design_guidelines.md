@@ -25,6 +25,7 @@
   - [ToC App](#toc-app)
   - [Design Rules](#design-rules)
   - [UI 间距](#ui-间距)
+  - [Click outside of Modal, should close?](#click-outside-of-modal-should-close)
 
 ## Recommend to Read
 
@@ -214,3 +215,22 @@ https://ant.design/docs/spec/layout
   * Form DataRange UI
 
 ![CleanShot 2021-12-23 at 18 29 00@2x](https://user-images.githubusercontent.com/17308201/147219667-7ede6bb1-501f-414e-8679-52a47eb54498.jpg)
+
+## Click outside of Modal, should close?
+
+2 种情况
+
+1. 但需要中断用户操作时，不关闭。
+2. 但不需要中断用户操作时，关闭。
+
+例如：
+
+使用弹出框执行某个动作时，例如：publish，delete。
+关闭。
+关闭窗口类似于 cancel，用户 cancel 便利。
+
+使用弹出框编辑数据时，例如：更改用户信息。
+不关闭
+关闭窗口太方便会让用户误操作失去已编辑的内容。
+当然，重要表单提供独立 URL 更推荐。
+
