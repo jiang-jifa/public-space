@@ -25,6 +25,7 @@
   - [浮标](#浮标)
   - [清爽的 Search reset UI in ListPage](#清爽的-search-reset-ui-in-listpage)
   - [UI: color input](#ui-color-input)
+  - [UI: Avatar.Group](#ui-avatargroup)
 
 ## 编辑 vs. 不可编辑
 
@@ -240,3 +241,7 @@ Bad
 ## UI: color input
 
 ![CleanShot Brave Browser-Labels · ThaddeusJiangmojito-admin-000043](https://user-images.githubusercontent.com/17308201/158314935-e367b879-be07-441b-8c74-8188fa74a1fa.gif)
+
+## UI: Avatar.Group
+
+![CleanShot 2022-02-16 at 14 45 00](https://user-images.githubusercontent.com/17308201/154203965-2f8a24eb-5154-44fc-b01d-332c790dae43.jpg)
