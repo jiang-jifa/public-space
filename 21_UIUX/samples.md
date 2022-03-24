@@ -24,6 +24,7 @@
   - [Preview Button](#preview-button)
   - [浮标](#浮标)
   - [清爽的 Search reset UI in ListPage](#清爽的-search-reset-ui-in-listpage)
+  - [UI: color input](#ui-color-input)
 
 ## 编辑 vs. 不可编辑
 
@@ -235,3 +236,7 @@ Bad
 ## 清爽的 Search reset UI in ListPage
 
 [![清爽的 Search reset UI in ListPage](https://i.gyazo.com/17ddb00514c9bfd32d56a8e4085bcc1e.jpg)](https://gyazo.com/17ddb00514c9bfd32d56a8e4085bcc1e)
+
+## UI: color input
+
+![CleanShot Brave Browser-Labels · ThaddeusJiangmojito-admin-000043](https://user-images.githubusercontent.com/17308201/158314935-e367b879-be07-441b-8c74-8188fa74a1fa.gif)
