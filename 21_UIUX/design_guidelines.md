@@ -24,6 +24,7 @@
   - [ToB App](#tob-app)
   - [ToC App](#toc-app)
   - [Design Rules](#design-rules)
+  - [UI 间距](#ui-间距)
 
 ## Recommend to Read
 
@@ -196,3 +197,20 @@ PC Layout: 1440px
 
 https://ant.design/docs/spec/layout
 
+
+## UI 间距
+
+一般的 Design System 中通常会定义 Large, Medium, Small。
+
+如何使用呢？
+
+例如：
+
+* 不相同的区域：Large
+  * 页面标题和搜索区域，搜索区域和数据展示区域
+* 相同区域的不同内容：Medium
+  * Form 的 input
+* 相同内容的不同元素：Small
+  * Form DataRange UI
+
+![CleanShot 2021-12-23 at 18 29 00@2x](https://user-images.githubusercontent.com/17308201/147219667-7ede6bb1-501f-414e-8679-52a47eb54498.jpg)
