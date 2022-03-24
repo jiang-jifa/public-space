@@ -17,6 +17,7 @@
   - [font-family for Japanese web](#font-family-for-japanese-web)
   - [UserCard](#usercard)
   - [FrontendTips - windows font-weight:500 不起作用](#frontendtips---windows-font-weight500-不起作用)
+  - [error_handling - Error vs. Exception](#error_handling---error-vs-exception)
 
 ## Grid View - load more
 https://react-query.tanstack.com/guides/infinite-queries
@@ -190,3 +191,26 @@ MacOS 下 -apple-system 字体也不支持 font-weight: 500。
 所以，不在执着 500 了，修改 UI Guideline ，我们系统只使用 400 和 600。
 
 ![CleanShot 2022-03-24 at 18 14 43](https://user-images.githubusercontent.com/17308201/159883832-e508b5e7-b298-4c6b-aebb-8ec984c8ee5a.gif)
+
+## error_handling - Error vs. Exception
+
+* 真的需要 custom 5xx error_code 吗？
+* 什么时候需要展示 custom 5xx error_code？
+* 就算需要 custom 5xx error_code，有必要提前设计吗？最起码 Agile 的功能概要设计时，我不能整理出全部的异常情况。
+
+---
+
+【Q】Error 和 Exception 一样吗？
+
+不一样。
+
+Error 通常是请求方错误导致的，Exception 通常是受理方的问题。
+
+【场景】一个人创建一个 account，但是 account ID 已经存在了。如何返回？
+
+note.com response `HTTP 201` 不是 Error。的确如此。
+
+![CleanShot 2022-01-20 at 23 23 05@2x](https://user-images.githubusercontent.com/17308201/150356799-2cf9639e-c6c1-4ff7-80ce-0e9489387745.jpg)
+![CleanShot 2022-01-20 at 23 23 20@2x](https://user-images.githubusercontent.com/17308201/150356820-529b1699-b1f5-40b3-8598-480fe942c1e4.jpg)
+
+所以，5xx 的确只需要处理 Exception 就可以了。
