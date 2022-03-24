@@ -1,5 +1,23 @@
 # Code Examples
 
+- [Code Examples](#code-examples)
+  - [Grid View - load more](#grid-view---load-more)
+  - [Java 如何实现多语言？](#java-如何实现多语言)
+  - [JS 如何优雅地展示数组数据？](#js-如何优雅地展示数组数据)
+  - [Form Validate Timing](#form-validate-timing)
+  - [permissions](#permissions)
+  - [测试代码应该自己清理测试数据，以防止测试用例相互影响。](#测试代码应该自己清理测试数据以防止测试用例相互影响)
+  - [`esc` close Modal](#esc-close-modal)
+  - [`esc` quit edit mode](#esc-quit-edit-mode)
+  - [sample input should off `autocomplete` feature](#sample-input-should-off-autocomplete-feature)
+  - [如果使用 library，就尽量不要覆盖 library 的内容](#如果使用-library就尽量不要覆盖-library-的内容)
+  - [UIUX textarea height](#uiux-textarea-height)
+  - [Grid](#grid)
+  - [Space](#space)
+  - [font-family for Japanese web](#font-family-for-japanese-web)
+  - [UserCard](#usercard)
+  - [FrontendTips - windows font-weight:500 不起作用](#frontendtips---windows-font-weight500-不起作用)
+
 ## Grid View - load more
 https://react-query.tanstack.com/guides/infinite-queries
 
@@ -163,3 +181,12 @@ Why?
 ## UserCard
 
 一个系统通常需要很多 UserCard，以及 UserPopover。
+
+
+## FrontendTips - windows font-weight:500 不起作用
+
+经过验证，
+MacOS 下 -apple-system 字体也不支持 font-weight: 500。
+所以，不在执着 500 了，修改 UI Guideline ，我们系统只使用 400 和 600。
+
+![CleanShot 2022-03-24 at 18 14 43](https://user-images.githubusercontent.com/17308201/159883832-e508b5e7-b298-4c6b-aebb-8ec984c8ee5a.gif)
