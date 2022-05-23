@@ -19,6 +19,7 @@
   - [FrontendTips - windows font-weight:500 不起作用](#frontendtips---windows-font-weight500-不起作用)
   - [error_handling - Error vs. Exception](#error_handling---error-vs-exception)
   - [API 400](#api-400)
+  - [mock data file structure](#mock-data-file-structure)
 
 ## Grid View - load more
 https://react-query.tanstack.com/guides/infinite-queries
@@ -253,3 +254,22 @@ Content-Length: 149
   ]
 }
 ```
+
+## mock data file structure
+
+> 实践证明，真的好用。
+
+创建一个 data 文件夹，子文件夹 mock , real
+
+```
+data
+├── mock
+│   └── anydata
+└── real
+    └── anydata
+```
+
+另外，很多优秀的工程师已经分享过了：”最好的 mock 就是不需要 mock“。
+
+* https://mswjs.io/
+* Elixir 社区也不推荐 mock
