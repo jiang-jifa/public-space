@@ -18,6 +18,7 @@
   - [UserCard](#usercard)
   - [FrontendTips - windows font-weight:500 不起作用](#frontendtips---windows-font-weight500-不起作用)
   - [error_handling - Error vs. Exception](#error_handling---error-vs-exception)
+  - [API 400](#api-400)
 
 ## Grid View - load more
 https://react-query.tanstack.com/guides/infinite-queries
@@ -214,3 +215,41 @@ note.com response `HTTP 201` 不是 Error。的确如此。
 ![CleanShot 2022-01-20 at 23 23 20@2x](https://user-images.githubusercontent.com/17308201/150356820-529b1699-b1f5-40b3-8598-480fe942c1e4.jpg)
 
 所以，5xx 的确只需要处理 Exception 就可以了。
+
+## API 400
+
+Ruby on Rails 是如何实现的？ RedwoodJS 是如何实现的？为什么要自己处理？像 RemixRun PhoenixFramework 之类的 framework 应该某人提供这种 API。
+
+常规
+
+```js
+{
+  "statusCode": 400,
+  "statusMessage": "Bad Request",
+  "message": "Bad Request",
+   "errors": ... // optional, string | object | array
+}
+```
+
+设计参考
+- coda API https://coda.io/developers/apis/v1#operation/createDoc
+- GitHub REST API https://docs.github.com/en/rest/overview/resources-in-the-rest-api#client-errors
+
+
+
+```js
+// GitHub errors sample
+HTTP/2 422
+Content-Length: 149
+
+{
+  "message": "Validation Failed",
+  "errors": [
+    {
+      "resource": "Issue",
+      "field": "title",
+      "code": "missing_field"
+    }
+  ]
+}
+```
