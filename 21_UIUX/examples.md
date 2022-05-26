@@ -5,7 +5,8 @@
   - [No Data](#no-data)
     - [Table View](#table-view)
     - [List View](#list-view)
-    - [Create Button when NotFound](#create-button-when-notfound)
+    - [Create Button when Not Found](#create-button-when-not-found)
+  - [Not Found Data UI](#not-found-data-ui)
   - [simulate Mode](#simulate-mode)
   - [层级数据展示](#层级数据展示)
   - [UserGroupSelector](#usergroupselector)
@@ -50,8 +51,27 @@ View Mode
 
 same as Table
 
-### Create Button when NotFound
+### Create Button when Not Found
 [![Image from Gyazo](https://i.gyazo.com/dc2b662d13a885f3fae1153ad25243fc.jpg)](https://gyazo.com/dc2b662d13a885f3fae1153ad25243fc)
+
+## Not Found Data UI
+
+关于 Not Found UI 的设计，Not Found Data 不应该是错误，Not Found Data 是正常现象。
+一味地追求统一性，让 Not Found Data UI 和 HTTP 404 Not Found 挂钩是不合理的。
+
+ListPage
+data is empty, is not Not Found, response should be `data: [], total: 0`
+
+http status: `200`
+
+DetailPage
+data was not found, response should be `null`
+
+http status: `200`
+
+App 不应该自动跳转的 `/404` 页面，应该停留在用户输入的页面，然后显示数据不存在。
+
+`/users/001` , UI: `the user is not existed!`
 
 ## simulate Mode
 
