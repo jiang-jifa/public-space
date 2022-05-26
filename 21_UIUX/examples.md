@@ -28,6 +28,7 @@
   - [UI: color input](#ui-color-input)
   - [UI: Avatar.Group](#ui-avatargroup)
   - [当 UI 上内容过多时，应该默认隐藏高级操作](#当-ui-上内容过多时应该默认隐藏高级操作)
+  - [Menu for mobile and pc](#menu-for-mobile-and-pc)
 
 ## 编辑 vs. 不可编辑
 
@@ -277,3 +278,9 @@ backlog
 
 azure portal
 ![CleanShot 2022-02-08 at 18 03 21](https://user-images.githubusercontent.com/17308201/152953601-854ea7a7-48c9-4259-bf5e-e914d4af9daa.gif)
+
+## Menu for mobile and pc
+
+Paypay UI is best.
+
+https://user-images.githubusercontent.com/17308201/157423995-064c66ca-10b8-4e78-8768-a4e136d6e045.MP4
