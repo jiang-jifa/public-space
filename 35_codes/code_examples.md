@@ -272,4 +272,4 @@ data
 另外，很多优秀的工程师已经分享过了：”最好的 mock 就是不需要 mock“。
 
 * https://mswjs.io/
-* Elixir 社区也不推荐 mock
+* Elixir 社区也不推荐 **mock**
