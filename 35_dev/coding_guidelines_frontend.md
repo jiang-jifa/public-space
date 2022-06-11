@@ -33,3 +33,54 @@ Frontend 可以报错，但是不要崩溃。
 - Good: [![Image from Gyazo](https://i.gyazo.com/50047913c88f18b27aed9d7ea975916e.jpg)](https://gyazo.com/50047913c88f18b27aed9d7ea975916e)
 
 - Bad: [![Image from Gyazo](https://i.gyazo.com/389208f243d89b7327a79ded4ddb5e39.jpg)](https://gyazo.com/389208f243d89b7327a79ded4ddb5e39)
+
+## URL 使用连接线，例如：https://vercel.com/account/login-connections
+
+GitHub 和 Twitter 使用下划线设计，不过他们最开始都是 ruby on rails 开发的。
+
+```
+https://github.com/settings/deleted_packages
+
+https://twitter.com/settings/privacy_and_safety
+```
+
+Vercel 和 Airbnb 使用中划线
+
+```
+https://vercel.com/account/login-connections
+
+https://www.airbnb.com/coron-island-philippines/stays
+```
+也说的通，因为很多时候空格会被当成连接线处理。
+
+看来 JS 社区喜欢连接线。
+
+![CleanShot 2022-06-11 at 11 23 52](https://user-images.githubusercontent.com/17308201/173169094-1f66ee19-83d8-4cda-9a42-b2844df3f51d.png)
+
+DB table column 如何处理两个单词呢？
+
+* RDB: JS 社区喜欢 camelCase，Ruby 社区喜欢 snake_case。
+* NoSQL: 可以使用 PascalCase
+
+> BTW URL 和 DB column name 没有关系，有时候和 DB table name 有关系，例如：accounts
+
+## What are valid table names in SQLite?
+
+https://stackoverflow.com/questions/3694276/what-are-valid-table-names-in-sqlite
+
+```
+abc123 - valid
+123abc - not valid
+abc_123 - valid
+_123abc - valid
+abc-abc - not valid (looks like an expression)
+abc.abc - not valid (looks like a database.table notation)
+```
+
+好像也没有办法统一，不过尽量吧。
+
+1. URL: kebab-case, like: `blog-articles`
+2. DB
+   1. RDB table and column: snake_case, like: `blog_articles` and `created_at`
+   2. NoSQL table:  PascalCase, like: `BlogArticles`.
+   3. NoSQL column: camelCase, like: `createdAt`.
