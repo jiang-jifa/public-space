@@ -80,3 +80,10 @@ https://github.com/yifeikong/reverse-interview-zh/blob/master/README.md
     - markdown
     - UserStory
 
+
+
+## 我认可的 Designer 具备哪些特征？
+
+1. 设计的统一性。同一个项目，昨天、今天、明天要保持统一性。
+2. 设计储备丰富。有大量 UI/UX 经验，针对不同业务需求，能做出多个设计方案，且有理有据。
+3. 坚守 Less but better。
