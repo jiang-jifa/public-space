@@ -30,6 +30,7 @@
   - [当 UI 上内容过多时，应该默认隐藏高级操作](#当-ui-上内容过多时应该默认隐藏高级操作)
   - [Menu for mobile and pc](#menu-for-mobile-and-pc)
 - [UI：使用虚线框表示不存在的元素，例如 list 的创建按钮 #61](#ui使用虚线框表示不存在的元素例如-list-的创建按钮-61)
+- [UI: placeholder 不能替代 label](#ui-placeholder-不能替代-label)
 
 ## 编辑 vs. 不可编辑
 
@@ -289,3 +290,13 @@ https://user-images.githubusercontent.com/17308201/157423995-064c66ca-10b8-4e78-
 # UI：使用虚线框表示不存在的元素，例如 list 的创建按钮 #61
 
 ![image](https://user-images.githubusercontent.com/17308201/170256594-4bb639e4-ab8b-42f0-afcd-5958193ebbb3.png)
+
+# UI: placeholder 不能替代 label
+
+Bad
+
+![CleanShot 2022-05-26 at 14 25 22](https://user-images.githubusercontent.com/17308201/170422149-74438d96-b639-4b86-9cfe-c8ec7709d4bd.png)
+
+Good
+
+![CleanShot 2022-05-26 at 14 26 23](https://user-images.githubusercontent.com/17308201/170422190-bda8ec9e-3050-4f24-86c6-ea333164de14.png)
