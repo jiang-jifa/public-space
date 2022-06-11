@@ -20,6 +20,7 @@
   - [error_handling - Error vs. Exception](#error_handling---error-vs-exception)
   - [API 400](#api-400)
   - [mock data file structure](#mock-data-file-structure)
+  - [JS 实现气泡 UI](#js-实现气泡-ui)
 
 ## Grid View - load more
 https://react-query.tanstack.com/guides/infinite-queries
@@ -273,3 +274,16 @@ data
 
 * https://mswjs.io/
 * Elixir 社区也不推荐 **mock**
+
+
+## JS 实现气泡 UI
+
+https://popper.js.org/
+popper.js 太过于底层了，不推荐。
+
+推荐使用同一个作者封装的更易用的库。tippyjs
+https://atomiks.github.io/tippyjs/
+
+BTW, service-admin 就是使用这个库，我用了好多年了。
+
+如果是最简单的 tooltip，请使用 HTML。
