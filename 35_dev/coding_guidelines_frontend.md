@@ -84,3 +84,16 @@ abc.abc - not valid (looks like a database.table notation)
    1. RDB table and column: snake_case, like: `blog_articles` and `created_at`
    2. NoSQL table:  PascalCase, like: `BlogArticles`.
    3. NoSQL column: camelCase, like: `createdAt`.
+
+
+## Frontend routes
+
+frontend 401 page: 没有登录
+
+对于 ToB 系统，没有登录意味着不能完成绝大多数功能，跳转到 login 页面好像没什么不好。
+
+frontend 403 page: 没有权限
+
+如果只是单个 API 没有权限，不应该跳转页面。
+
+设计原则：不擅自修改用户的输入（包括 URL）
