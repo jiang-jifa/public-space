@@ -26,6 +26,7 @@
   - [Design Rules](#design-rules)
   - [UI 间距](#ui-间距)
   - [Click outside of Modal, should close?](#click-outside-of-modal-should-close)
+  - [Card UI 和 Input length 应该配合](#card-ui-和-input-length-应该配合)
 
 ## Recommend to Read
 
@@ -234,3 +235,8 @@ https://ant.design/docs/spec/layout
 关闭窗口太方便会让用户误操作失去已编辑的内容。
 当然，重要表单提供独立 URL 更推荐。
 
+## Card UI 和 Input length 应该配合
+
+绝大多数 input 都应该有长度限制，长度有时候应该按照业务需求设定，同时展示 UI 应该考虑最大长度。
+
+![CleanShot 2022-06-13 at 10 01 09](https://user-images.githubusercontent.com/17308201/173261859-fde053ff-a994-4469-900f-7946b112c031.png)
